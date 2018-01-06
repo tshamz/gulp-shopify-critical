@@ -1,0 +1,28 @@
+{
+  "name": "@bva/gulp-shopify-critical",
+  "version": "1.2.0",
+  "description": "turn critical css into a shopify snippet",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BVAccel/gulp-shopify-critical.git"
+  },
+  "maintainers": [
+    {
+      "name": "tshamz",
+      "email": "tyler@bvaccel.com"
+    }
+  ],
+  "dependencies": {
+    "critical": "^1.1.0",
+    "plugin-error": "^0.1.2",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tshamz",
+  "license": "MIT"
+}
