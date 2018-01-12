@@ -29,8 +29,8 @@ const gulpShopifyCritical = function (options) {
       const criticalLiquidHead = generateCriticalHead(options.config.critical);
       const criticalLiquidFooter = generateCriticalFooter(options.config.critical);
 
-      const criticalFileHead = new File({ path: 'critical-head.liquid', contents: new Buffer(criticalLiquidHead) });
-      const criticalFileFooter = new File({ path: 'critical-footer.liquid', contents: new Buffer(criticalLiquidFooter) });
+      const criticalFileHead = new File({ path: 'critical.head.liquid', contents: new Buffer(criticalLiquidHead) });
+      const criticalFileFooter = new File({ path: 'critical.footer.liquid', contents: new Buffer(criticalLiquidFooter) });
 
       this.push(criticalFileHead);
       this.push(criticalFileFooter);
